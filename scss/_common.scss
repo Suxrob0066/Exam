@@ -1,0 +1,22 @@
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin btn-style($bg, $c, $p, $ff, $fw, $fs, $br) {
+    background-color: $bg;
+    color: $c;
+    padding: $p;
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    border-radius: $br;
+}
+
+@mixin content-style ($ff,$fs,$fw,$c) {
+    font-family: $ff;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $c;
+}

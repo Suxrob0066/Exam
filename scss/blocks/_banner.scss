@@ -1,0 +1,19 @@
+.banner{
+    height: 49px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+
+    & p {
+        color: #FFFFFF;
+        font-family: $main-font;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: -0.03em;
+        text-align: left;
+
+    }
+}
